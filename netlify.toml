@@ -30,11 +30,6 @@ HUGO_VERSION = "ç"
 HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
-  from = "/*"
-  to = "/"
-  status = 301
-
-[[redirects]]
   from = "https://bissgigi.com/*"
   to = "https://bissgigi.art/"
   status = 301
