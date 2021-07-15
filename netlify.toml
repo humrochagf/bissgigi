@@ -28,3 +28,13 @@ HUGO_VERSION = "ç"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+  from = "bissgigi.com"
+  to = "bissgigi.art"
+  status = 301
+
+[[redirects]]
+  from = "www.bissgigi.com"
+  to = "bissgigi.art"
+  status = 301
