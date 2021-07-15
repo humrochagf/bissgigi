@@ -1,0 +1,12 @@
+baseURL: "https://bissgigi.art/"
+languageCode: "en-us"
+title: "My links"
+googleAnalytics: G-0V4CKTTHX8
+enableRobotsTXT: true
+
+author:
+  twitter: "@bissgigi"
+
+disableKinds:
+  - taxonomy
+  - term

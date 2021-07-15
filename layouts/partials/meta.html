@@ -1,0 +1,26 @@
+<!-- Required meta tags always come first -->
+<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, user-scalable=no">
+
+<!-- Favicons -->
+<link rel="icon" type="image/png" href="{{ "img/favicon.png" | absURL }}" sizes="32x32" />
+
+{{ template "_internal/google_analytics_async.html" . }}
+
+<!-- SEO tags -->
+<link rel="canonical" href="{{ .Permalink }}" />
+
+<!-- General -->
+<meta name="description" content="{{ .Description }}" />
+<meta name="author" content="{{ .Site.Author.twitter }}" />
+
+<!-- Schema -->
+{{ template "_internal/schema.html" . }}
+
+<!-- Open Graph -->
+{{ template "_internal/opengraph.html" . }}
+
+<!-- Twitter -->
+{{ template "_internal/twitter_cards.html" . }}
+<meta name="twitter:creator" content="{{ .Site.Author.twitter }}" />

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" lang="{{ .Site.LanguageCode }}">
+  <head>
+    {{ partial "meta" . }}
+
+    {{ block "jsonLD" . }}
+    {{ end }}
+
+    <!-- Page title -->
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
+
+    <!-- styles -->
+    {{ $styles := resources.Get "css/main.css" | fingerprint }}
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}"/>
+  </head>
+
+  <body class="bg-purple-100">
+    {{ block "body" . }}
+    {{ end }}
+  </body>
+</html>
