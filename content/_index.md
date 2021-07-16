@@ -1,9 +1,9 @@
 ---
 title: "@bissgigi"
 description: "Brazilian Illustrator based in Canada, sharing my artwork and learning journey"
-avatar: "img/avatar.jpg"
+avatar: "/img/avatar.jpg"
 images:
-  - "img/avatar.jpg"
+  - "/img/avatar.jpg"
 links:
   - text: Instagram
     link: https://instagram.com/bissgigi
