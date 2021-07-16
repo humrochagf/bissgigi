@@ -6,13 +6,7 @@ webhook_url:
 sections:
 - type: document
   path: content/_index.md
-  label: Links
-  match: "**/*"
-- type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
+  label: Home
 upload_dir: static/img
 public_path: "/uploads"
 front_matter_path: ''
