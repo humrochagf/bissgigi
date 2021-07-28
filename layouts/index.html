@@ -5,19 +5,19 @@
       <img src="{{ .Params.avatar }}" alt="{{ .Title }}" width="196" height="196" class="rounded-full"/>
     </a>
 
-    <h1 class="mt-4 mb-8 text-center text-gray-700 font-bold">{{ .Title }}</h1>
+    <h1 class="mt-4 mb-8 text-center text-blue font-bold">{{ .Title }}</h1>
 
     {{ range .Params.links }}
       <a href="{{ .link }}" class="w-full my-2 relative p-0.5 inline-flex items-center justify-center font-bold text-center overflow-hidden group rounded-md">
-        <span class="w-full h-full bg-gradient-to-br from-indigo-300 via-purple-400 to-pink-400 group-hover:from-indigo-400 group-hover:via-purple-500 group-hover:to-pink-500 absolute"></span>
-        <span class="w-full relative px-6 py-5 transition-all ease-out bg-purple-100 rounded group-hover:bg-opacity-0 duration-400">
-          <span class="relative text-indigo-500 group-hover:text-white">{{ .text }}</span>
+        <span class="w-full h-full bg-gradient-to-br from-blue via-pink to-orange group-hover:from-blue group-hover:via-pink group-hover:to-orange absolute"></span>
+        <span class="w-full relative px-6 py-5 transition-all ease-out bg-white rounded group-hover:bg-opacity-0 duration-400">
+          <span class="relative text-blue group-hover:text-white">{{ .text }}</span>
         </span>
       </a>
     {{ end }}
 
     <a href="{{ "/" | absLangURL }}">
-      <img src="img/footer.png" alt="{{ .Title }}" width="96" height="96" class="mt-6"/>
+      <img src="{{ .Params.footer }}" alt="{{ .Title }}" width="96" height="96" class="mt-6"/>
     </a>
   </div>
 </main>
