@@ -7,6 +7,8 @@ footer: "/img/footer.png"
 images:
 - "/img/avatar-1.png"
 links:
+- text: Portfolio
+  link: https://www.behance.net/giovannbissaco
 - text: Instagram
   link: https://instagram.com/bissgigi
 - text: Twitter
