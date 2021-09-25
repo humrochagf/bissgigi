@@ -7,10 +7,12 @@ footer: "/img/footer.png"
 images:
 - "/img/avatar-1.png"
 links:
+- text: RedBubble Shop
+  link: https://www.redbubble.com/people/bissgigi/shop?asc=u
 - text: Society6 Shop
   link: https://society6.com/bissgigi/all
 - text: Portfolio
-  link: https://www.behance.net/giovannbissaco
+  link: https://www.behance.net/bissgigi
 - text: Instagram
   link: https://instagram.com/bissgigi
 - text: Twitter
