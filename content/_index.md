@@ -8,7 +8,7 @@ images:
 - "/img/avatar-1.png"
 links:
 - text: RedBubble Shop
-  link: https://www.redbubble.com/people/bissgigi/shop?asc=u
+  link: https://www.redbubble.com/people/bissgigi/explore?asc=u&page=1&sortOrder=top%20selling
 - text: Society6 Shop
   link: https://society6.com/bissgigi/all
 - text: Portfolio
