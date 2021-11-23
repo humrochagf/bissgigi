@@ -2,3 +2,4 @@ assets/css/main.css
 node_modules/
 public/
 resources/
+*.lock
