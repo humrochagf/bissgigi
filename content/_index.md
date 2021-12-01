@@ -12,7 +12,7 @@ links:
 - text: Society6 Shop
   link: https://society6.com/bissgigi/all
 - text: Portfolio
-  link: https://www.behance.net/bissgigi
+  link: https://bissgigi.myportfolio.com/work
 - text: Instagram
   link: https://instagram.com/bissgigi
 - text: Twitter
