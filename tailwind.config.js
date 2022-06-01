@@ -1,7 +1,15 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
-  mode: "jit",
-  purge: ["./content/**/*.md", "./content/**/*.html", "./layouts/**/*.html"],
+  content: [
+    "./content/**/*.md",
+    "./content/**/*.html",
+    "./layouts/**/*.html",
+  ],
   theme: {
+    fontFamily: {
+      'sans': ['Calibri', ...defaultTheme.fontFamily.sans],
+    },
     colors: {
       blue: "#7887e6",
       pink: "#f99ebc",
@@ -16,4 +24,4 @@ module.exports = {
       }
     },
   },
-};
+}
