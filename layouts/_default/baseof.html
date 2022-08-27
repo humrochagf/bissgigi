@@ -10,7 +10,11 @@
     <title>{{ .Title }} | {{ .Site.Title }}</title>
 
     <!-- styles -->
-    {{ partialCached "css.html" . }}
+    {{ if hugo.IsProduction }}
+      {{ partial "css.html" }}
+    {{ else }}
+      {{ partialCached "css.html" . }}
+    {{ end }}
   </head>
 
   <body class="bg-repeat" style="background-image: url(/img/bg.png)">
