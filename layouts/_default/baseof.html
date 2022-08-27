@@ -10,8 +10,7 @@
     <title>{{ .Title }} | {{ .Site.Title }}</title>
 
     <!-- styles -->
-    {{ $styles := resources.Get "css/main.css" | fingerprint }}
-    <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}"/>
+    {{ partialCached "css.html" . }}
   </head>
 
   <body class="bg-repeat" style="background-image: url(/img/bg.png)">
