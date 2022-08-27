@@ -7,9 +7,6 @@ module.exports = {
     "./layouts/**/*.html",
   ],
   theme: {
-    fontFamily: {
-      'sans': ['Calibri', ...defaultTheme.fontFamily.sans],
-    },
     colors: {
       blue: "#7887e6",
       pink: "#f99ebc",
