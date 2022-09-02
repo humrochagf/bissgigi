@@ -1,5 +1,4 @@
-assets/css/main.css
+*.lock
 node_modules/
 public/
 resources/
-*.lock
