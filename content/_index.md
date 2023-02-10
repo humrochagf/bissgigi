@@ -5,7 +5,7 @@ description: Brazilian Illustrator based in Canada, sharing my artwork and learn
 avatar: "/img/cores_completas_2.png"
 footer: "/img/footer.png"
 images:
-- "/img/y213vn.jpg"
+- "/img/cores_completas_2.png"
 links:
 - text: Portfolio
   link: https://bissgigi.myportfolio.com/work
