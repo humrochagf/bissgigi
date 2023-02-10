@@ -1,5 +1,5 @@
 ---
-title: "@bissgigi"
+title: "/img/barra-site.png"
 description: Brazilian Illustrator based in Canada, sharing my artwork and learning
   journey.
 avatar: "/img/avatar.png"
