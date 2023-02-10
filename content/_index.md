@@ -2,7 +2,7 @@
 title: "@bissgigi"
 description: Brazilian Illustrator based in Canada, sharing my artwork and learning
   journey.
-avatar: "/img/cores_completas_2.jpg"
+avatar: "/img/cores_completas_2.png"
 footer: "/img/footer.png"
 images:
 - "/img/y213vn.jpg"
