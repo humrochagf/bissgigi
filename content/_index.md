@@ -10,11 +10,7 @@ images:
 links:
 - text: Portfolio
   link: https://bissgigi.myportfolio.com/work
-- text: Society6 Shop
-  link: https://society6.com/bissgigi/all
 - text: Instagram
   link: https://instagram.com/bissgigi
-- text: Twitter
-  link: https://twitter.com/bissgigi
 
 ---
