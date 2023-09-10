@@ -1,11 +1,11 @@
 {{ define "body" }}
 <main class="container py-8 px-5">
-  <div class="bg-white p-5 flex flex-col items-center">
+  <div class="bg-offwhite p-5 flex flex-col items-center">
     <a href="{{ "/" | absLangURL }}">
       <img src="{{ .Params.avatar }}" alt="{{ .Title }}" width="196" height="196" class="rounded-full"/>
     </a>
 
-    <h1 class="mt-4 mb-8 text-center text-blue font-bold">{{ .Title }}</h1>
+    <h1 class="mt-4 mb-8 text-center text-xl text-pink font-bold">{{ .Title }}</h1>
 
     {{ range .Params.links }}
       <a href="{{ .link }}" class="w-full my-2 relative p-0.5 inline-flex items-center justify-center font-bold text-center overflow-hidden group rounded-md">

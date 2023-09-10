@@ -12,6 +12,7 @@ module.exports = {
       pink: "#f99ebc",
       orange: "#f8bea5",
       white: "#ffffff",
+      offwhite: "#fcf1f2"
     },
     container: {
       center: true,
