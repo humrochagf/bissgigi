@@ -1,7 +1,9 @@
 {
   "devDependencies": {
-    "postcss": "^8.4.16",
-    "postcss-cli": "^10.0.0",
-    "tailwindcss": "^3.1.8"
+    "@unocss/postcss": "^0.58.3",
+    "@unocss/preset-web-fonts": "^0.58.3",
+    "@unocss/transformer-directives": "^0.58.3",
+    "postcss-cli": "^11.0.0",
+    "unocss": "^0.58.3"
   }
 }

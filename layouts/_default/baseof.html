@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html prefix="og: http://ogp.me/ns#" lang="{{ .Site.LanguageCode }}">
-  <head>
-    {{ partial "meta" . }}
 
-    {{ block "jsonLD" . }}
-    {{ end }}
+<head>
+  {{ partial "meta" . }}
 
-    <!-- Page title -->
-    <title>{{ .Title }} | {{ .Site.Title }}</title>
+  {{ block "jsonLD" . }}
+  {{ end }}
 
-    <!-- styles -->
-    {{ partialCached "css.html" . }}
-  </head>
+  <!-- Page title -->
+  <title>{{ .Title }} | {{ .Site.Title }}</title>
 
-  <body class="bg-repeat" style="background-image: url(/img/bg.png)">
-    {{ block "body" . }}
-    {{ end }}
-  </body>
+  <!-- styles -->
+  {{ partialCached "css.html" . }}
+</head>
+
+<body class="min-h-100vh m-0 flex items-center justify-around font-kiteone bg-repeat"
+  style="background-image: url(/img/bg.png)">
+  {{ block "body" . }}
+  {{ end }}
+</body>
+
 </html>

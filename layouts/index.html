@@ -1,24 +1,28 @@
 {{ define "body" }}
-<main class="container py-8 px-5">
-  <div class="bg-offwhite p-5 flex flex-col items-center">
-    <a href="{{ "/" | absLangURL }}">
-      <img src="{{ .Params.avatar }}" alt="{{ .Title }}" width="196" height="196" class="rounded-full"/>
+<div class="w-600px m-2 flex flex-col justify-between bg-white">
+  <header class="flex flex-col items-center pt-8">
+    <a href='{{ "/" | absLangURL }}'>
+      <img src="{{ .Params.avatar }}" alt="{{ .Title }}" width="196" height="196" class="rounded-full" />
     </a>
 
-    <h1 class="mt-4 mb-8 text-center text-xl text-pink font-bold">{{ .Title }}</h1>
+    <h1 class="mt-4 mb-0 text-center text-xl text-pink font-bold">
+      {{ .Title }}
+    </h1>
+  </header>
 
+  <main class="flex flex-col items-center px-16 py-12">
     {{ range .Params.links }}
-      <a href="{{ .link }}" class="w-full my-2 relative p-0.5 inline-flex items-center justify-center font-bold text-center overflow-hidden group rounded-md">
-        <span class="w-full h-full bg-gradient-to-br from-blue via-pink to-orange group-hover:from-blue group-hover:via-pink group-hover:to-orange absolute"></span>
-        <span class="w-full relative px-6 py-5 transition-all ease-out bg-white rounded group-hover:bg-opacity-0 duration-400">
-          <span class="relative text-blue group-hover:text-white">{{ .text }}</span>
-        </span>
-      </a>
-    {{ end }}
-
-    <a href="{{ "/" | absLangURL }}">
-      <img src="{{ .Params.footer }}" alt="{{ .Title }}" width="96" height="96" class="mt-6"/>
+    <a href="{{ .link }}"
+      class="w-full mt-2 first:mt-0 p-20px decoration-none text-center rounded-md border-solid border-pink border-1 text-pink hover:border-2 hover:p-19px hover:font-bold">
+      {{ .text }}
     </a>
-  </div>
-</main>
+    {{ end }}
+  </main>
+
+  <footer class="flex flex-col items-center pb-4">
+    <a href='{{ "/" | absLangURL }}'>
+      <img src="{{ .Params.footer }}" alt="{{ .Title }}" width="96" height="96" />
+    </a>
+  </footer>
+</div>
 {{ end }}
