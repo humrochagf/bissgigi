@@ -1,7 +1,6 @@
 baseURL: "https://bissgigi.art/"
 languageCode: "en-us"
 title: "My links"
-googleAnalytics: G-0V4CKTTHX8
 enableRobotsTXT: true
 
 author:
@@ -10,3 +9,8 @@ author:
 disableKinds:
   - taxonomy
   - term
+
+params:
+  tracking:
+    domain: https://u.humberto.io
+    websiteId: "2377da48-9536-4445-a5ce-fd01c32d2159"
