@@ -3,9 +3,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <meta name="viewport" content="width=device-width, user-scalable=no">
 
-<!-- Tracking -->
-<script defer src="{{ .Site.Params.tracking.domain }}/script.js" data-website-id="{{ .Site.Params.tracking.websiteId }}"></script>
-
 <!-- Favicons -->
 <link rel="icon" type="image/png" href="{{ "img/favicon.png" | absURL }}" sizes="32x32" />
 
@@ -14,7 +11,7 @@
 
 <!-- General -->
 <meta name="description" content="{{ .Description }}" />
-<meta name="author" content="{{ .Site.Author.twitter }}" />
+<meta name="author" content="{{ .Site.Params.Author.twitter }}" />
 
 <!-- Schema -->
 {{ template "_internal/schema.html" . }}

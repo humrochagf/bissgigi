@@ -3,14 +3,10 @@ languageCode: "en-us"
 title: "My links"
 enableRobotsTXT: true
 
-author:
-  twitter: "@bissgigi"
-
 disableKinds:
   - taxonomy
   - term
 
 params:
-  tracking:
-    domain: https://u.humberto.io
-    websiteId: "2377da48-9536-4445-a5ce-fd01c32d2159"
+  author:
+    twitter: "@bissgigi"
